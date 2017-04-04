@@ -1,0 +1,9 @@
+llbean\pages\departments\MensDepartmentPage.class
+llbean\pages\HomePage.class
+llbean\tests\HappyPath1.class
+llbean\pages\departmentpage.class
+llbean\pages\BasePage.class
+llbean\utils\AppiumDriverBuilder.class
+llbean\utils\UniversalPage.class
+llbean\pages\BaseCategoryPage.class
+llbean\tests\BaseTest.class
