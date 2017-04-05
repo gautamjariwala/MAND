@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import ru.yandex.qatools.allure.annotations.Step;
 
 /**
  * Created by gjariwala on 3/27/2017.
@@ -22,51 +23,50 @@ public class HomePage extends BasePage {
 
        public void clickOnFootwearDepartmentTab(){
             clickElement(footwearDepartmentTabTitle);
+            scrollUpCurrentView();
+           scrollUpCurrentView();
+
        }
 
         @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Men's\")")
             public MobileElement mensDepartmentPageTitle;
 
-    protected void clickOnmensDepartmentTab(MobileElement mobileElement){
 
-        mobileElement = waitTillElementVisible(mobileElement);
+    public void clickOnmensDepartmentTab(){
+        waitTillElementVisible(mensDepartmentPageTitle);
         clickElement(mensDepartmentPageTitle);
-    }
-       /* @FindBy(xpath = "\"//android.widget.TextView[@text='Footwear']\"")
-    private WebElement footwear_dept;*/
-
-
-
-    //WebElement e = driver.findElement(By.xpath("//android.widget.TextView[@text='Footwear']"));
-    //By footwear_dept = By.xpath("//android.widget.TextView[@text='Footwear']");
-
-    /*public WebElement click(){
-        return driver.findElement(footwear_dept);
-
-    }*/
-
-
-
-   /* WebDriver driver;
-
-    public homepage(WebDriver driver)
-    {
-        this.driver=driver;
+        scrollUpCurrentView();
+        scrollUpCurrentView();
     }
 
+    protected boolean isVisible(MobileElement mobileElement) {
 
-    By cat_name = By.("Men's");
+        boolean status = false;
+        try {
+            mobileElement = waitTillElementVisible(mobileElement);
+            status = true;
+        } catch (Exception e) {
 
-    public WebElement catname(){
-
-        return driver.findElement(cat_name);
+        }
+        return status;
     }
 
-    public void waitmethod(int waittime, WebElement elementname){
-        WebDriverWait wait = new WebDriverWait(driver, waittime);
-        wait.until(ExpectedConditions.visibilityOf(elementname));
+    @AndroidFindBy(accessibility = "Open Navigation Drawer")
+    public MobileElement humburgerIcon;
 
-    }*/
+    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Shop\")")
+    public MobileElement homePageTitle;
+
+    @AndroidFindBy(accessibility = "Search")
+    public MobileElement searchIcon;
+
+    @AndroidFindBy(accessibility = "Shopping Bag")
+    public MobileElement shoppingBagIcon;
+
+    @Step
+    public boolean HomePageTitleIsVisible(){
+        return isVisible(homePageTitle);
+    }
 
 }
 

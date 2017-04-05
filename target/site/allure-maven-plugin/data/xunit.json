@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1491358068755,
+    "stop" : 1491358091321,
+    "duration" : 22566
+  },
+  "testSuites" : [ {
+    "uid" : "fe7cdd0160911ea8",
+    "name" : "Regression : GuestUser",
+    "title" : "Regression : GuestUser",
+    "time" : {
+      "start" : 1491358068755,
+      "stop" : 1491358091321,
+      "duration" : 22566
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "8440080d4910e58f",
+      "name" : "guestUserCheckout",
+      "title" : "Guest user checkout",
+      "time" : {
+        "start" : 1491358068755,
+        "stop" : 1491358091321,
+        "duration" : 22566
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

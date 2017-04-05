@@ -16,7 +16,7 @@ public class AppiumDriverBuilder {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "Android");
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus 6");
-            capabilities.setCapability(MobileCapabilityType.APP, "/Users/gjariwala/Project 2/L.L.Bean_1.0-beta-356-g946bc53.apk");
+            capabilities.setCapability(MobileCapabilityType.APP, "/Users/gautam/IdeaProjects/mand/src/L.L.Bean_1.1-development-312-g8acd13b.apk");
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
             capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.llbean");
             capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".ui.home.HomeActivity");

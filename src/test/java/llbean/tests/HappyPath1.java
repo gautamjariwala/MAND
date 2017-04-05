@@ -1,5 +1,7 @@
 package llbean.tests;
 
+import io.appium.java_client.MobileElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -16,8 +18,15 @@ public class HappyPath1 extends BaseTest{
 
     @Test
     public void guestUserCheckout() {
+
+        app.homepage().explicitWait(10);
+        Assert.assertTrue(app.homepage().HomePageTitleIsVisible(), "HomePage Title is Not Displayed");
+        //app.homepage().clickOnFootwearDepartmentTab();
         app.homepage().clickOnmensDepartmentTab();
-        app.homepage().scrollDownCurrentView();
+        app.dp().clickOnOuterwearDepartment();
+        app.basecategorypage().clickOnCategory();
+        app.basecategorypage().clickOnFirstProduct();
+        //app.homepage().scrollDownCurrentView();
 
     }}
 

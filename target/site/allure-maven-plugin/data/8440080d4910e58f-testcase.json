@@ -1,0 +1,74 @@
+{
+  "uid" : "8440080d4910e58f",
+  "name" : "guestUserCheckout",
+  "title" : "Guest user checkout",
+  "time" : {
+    "start" : 1491358068755,
+    "stop" : 1491358091321,
+    "duration" : 22566
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "fe7cdd0160911ea8",
+    "name" : "Regression : GuestUser",
+    "title" : "Regression : GuestUser"
+  },
+  "steps" : [ {
+    "name" : "HomePageTitleisVisible",
+    "title" : "Home page titleis visible",
+    "time" : {
+      "start" : 1491358069588,
+      "stop" : 1491358071159,
+      "duration" : 1571
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Regression : GuestUser"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "GuestUser"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "testClass",
+    "value" : "llbean.tests.HappyPath1"
+  }, {
+    "name" : "testMethod",
+    "value" : "guestUserCheckout"
+  }, {
+    "name" : "host",
+    "value" : "Gautam-PC"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Regression : GuestUser"
+  }, {
+    "name" : "thread",
+    "value" : "5956@Gautam-PC.main(1)"
+  } ],
+  "parameters" : [ ]
+}

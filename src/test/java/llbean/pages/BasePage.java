@@ -4,6 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import llbean.utils.UniversalPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -15,20 +16,21 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by gjariwala on 4/4/2017.
  */
-public class BasePage {
+public class BasePage extends UniversalPage{
 
     protected final AppiumDriver driver;
 
     private WebDriverWait wait;
 
     public BasePage (AppiumDriver driver){
+        super(driver);
 
         this.driver = driver;
         wait = new WebDriverWait(this.driver, 30);
         PageFactory.initElements(new AppiumFieldDecorator(driver,15, TimeUnit.SECONDS), this);
     }
 
-    private MobileElement waitTillElementVisible(MobileElement mobileElement){
+    protected MobileElement waitTillElementVisible(MobileElement mobileElement){
         return (MobileElement) wait.until(ExpectedConditions.visibilityOf(mobileElement));
     }
 
@@ -66,6 +68,13 @@ public class BasePage {
                 .moveTo(200, 0)
                 .release()
                 .perform();
+    }
+    public void explicitWait(int sec) {
+        try {
+            Thread.sleep(sec);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 }

@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "8440080d4910e58f",
+    "name" : "guestUserCheckout",
+    "title" : "Guest user checkout",
+    "time" : {
+      "start" : 1491358068755,
+      "stop" : 1491358091321,
+      "duration" : 22566
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}
