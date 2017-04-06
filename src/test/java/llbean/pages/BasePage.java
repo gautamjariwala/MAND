@@ -16,14 +16,14 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by gjariwala on 4/4/2017.
  */
-public class BasePage extends UniversalPage{
+public class BasePage {
 
     protected final AppiumDriver driver;
 
     private WebDriverWait wait;
 
     public BasePage (AppiumDriver driver){
-        super(driver);
+
 
         this.driver = driver;
         wait = new WebDriverWait(this.driver, 30);
@@ -75,6 +75,18 @@ public class BasePage extends UniversalPage{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    protected boolean isVisible(MobileElement mobileElement) {
+
+        boolean status = false;
+        try {
+            mobileElement = waitTillElementVisible(mobileElement);
+            status = true;
+        } catch (Exception e) {
+
+        }
+        return status;
     }
 
 }

@@ -1,8 +1,8 @@
 llbean\pages\HomePage.class
 llbean\tests\HappyPath1.class
-llbean\pages\departmentpage.class
 llbean\pages\BasePage.class
 llbean\utils\AppiumDriverBuilder.class
 llbean\utils\UniversalPage.class
 llbean\pages\BaseCategoryPage.class
+llbean\pages\DepartmentPage.class
 llbean\tests\BaseTest.class

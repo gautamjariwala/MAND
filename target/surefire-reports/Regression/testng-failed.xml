@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Regression]">
+  <test name="GuestUser(failed)">
+    <classes>
+      <class name="llbean.tests.HappyPath1">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="guestUserCheckout"/>
+        </methods>
+      </class> <!-- llbean.tests.HappyPath1 -->
+    </classes>
+  </test> <!-- GuestUser(failed) -->
+</suite> <!-- Failed suite [Regression] -->

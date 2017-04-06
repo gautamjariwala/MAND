@@ -6,6 +6,5 @@
             <class name="llbean.tests.HappyPath1">
             </class>
         </classes>
-    </test>
-
-</suite>
+        </test>
+        </suite>

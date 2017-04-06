@@ -3,8 +3,8 @@ package llbean.pages;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import ru.yandex.qatools.allure.annotations.Attachment;
+import ru.yandex.qatools.allure.annotations.Step;
 
 import java.util.List;
 
@@ -18,22 +18,41 @@ public class BaseCategoryPage extends BasePage {
         }
 
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Jackets & Coats\")")
-    public MobileElement categoryTabName;
+    public MobileElement subCategoryTabName;
 
     @AndroidFindBy(id = "com.llbean:id/product_name")
     public List<MobileElement> productNameViews;
 
-        public void clickOnCategory(){
-            waitTillElementVisible(categoryTabName);
-            clickElement(categoryTabName);
+    @AndroidFindBy(accessibility = "Navigate up")
+    public MobileElement backArrowIcon;
 
-        }
+    public void clickOnSubCategory(){
+        waitTillElementVisible(subCategoryTabName);
+        clickElement(subCategoryTabName);
+
+    }
 
     public void clickOnFirstProduct(){
-            waitTillElementVisible(productNameViews.get(0));
+        waitTillElementVisible(productNameViews.get(0));
         productNameViews.get(0).click();
     }
+
+    @Step
+    public boolean FirstProductTileIsPresent(){return isVisible(productNameViews.get(0));}
+
+    @Step
+    public boolean SecondProductTileIsPresent(){
+        System.out.println("first tile" + productNameViews.get(0));
+        return isVisible(productNameViews.get(1));}
+
+    @Step
+    public boolean BackArrowIconIsPresnet(){return isVisible(backArrowIcon);}
+
     //By product = By.xpath("//android.widget.TextView[contains (@resource-id, 'com.llbean:id/product_name') and @index='1']");
+
+
+
+
 
 
 }

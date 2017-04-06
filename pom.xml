@@ -13,6 +13,9 @@
         <aspectj.version>1.8.5</aspectj.version>
     </properties>
 
+
+
+
     <dependencies>
 
 
@@ -105,5 +108,12 @@
             </plugin>
         </plugins>
     </reporting>
+
+    <repositories>
+        <repository>
+            <id>m2</id>
+            <url>http://repo1.maven.org/maven2</url>
+        </repository>
+    </repositories>
 
 </project>
