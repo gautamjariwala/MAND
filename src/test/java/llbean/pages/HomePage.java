@@ -2,12 +2,17 @@ package llbean.pages;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.ios.IOSTouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.allure.annotations.Step;
+
+import java.util.HashMap;
 
 /**
  * Created by gjariwala on 3/27/2017.
@@ -52,6 +57,9 @@ public class HomePage extends BasePage {
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Footwear\")")
     public MobileElement footwearTab;
 
+    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"CRESTA HIKERS\")")
+    public MobileElement footerElement;
+
     public void clickOnFootwearDepartmentTab(){
             clickElement(footwearDepartmentTabTitle);
             scrollUpCurrentView();
@@ -65,10 +73,33 @@ public class HomePage extends BasePage {
 
     public void clickOnmensDepartmentTab(){
         waitTillElementVisible(mensTab);
-        explicitWait(10);
+        explicitWait(500);
         clickElement(mensTab);
         scrollUpCurrentView();
-        scrollUpCurrentView();
+
+    }
+
+    public void swipeFunction(){
+        //waitTillElementVisible(mensTab);
+        //driver.swipe(687, 1413, 687, 1533, 3000);
+
+        /*JavascriptExecutor js = (JavascriptExecutor) driver;
+        HashMap<String, Double> swipeObject = new HashMap<String, Double>();
+        swipeObject.put("startX", 0.01);
+        swipeObject.put("starY", 0.5);
+        swipeObject.put("endX", 0.9);
+        swipeObject.put("endY", 0.6);
+        swipeObject.put("duration", 3.0);
+        js.executeScript("mobile: swipe", swipeObject);
+        js.executeScript("mobile: swipe", swipeObject);
+                js.executeScript("mobile: swipe", swipeObject);*/
+
+        TouchAction t = new TouchAction(driver);
+        t.press(0, 500)
+                .waitAction(2000)
+                .moveTo(0, 200)
+                .release()
+                .perform();
     }
 
     @Step

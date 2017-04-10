@@ -4,6 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import llbean.pages.BaseCategoryPage;
 import llbean.pages.HomePage;
 import llbean.pages.DepartmentPage;
+import llbean.pages.ProductDisplayPage;
 
 /**
  * Created by gjariwala on 4/4/2017.
@@ -16,4 +17,5 @@ public class UniversalPage {
     public UniversalPage (AppiumDriver driver){
             this.driver = driver;
     }
+    public ProductDisplayPage productdisplaypage(){return new ProductDisplayPage(driver);}
 }

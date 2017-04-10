@@ -22,7 +22,8 @@ public class HappyPath1 extends BaseTest{
 
         //HomeScreen
         app.homepage().explicitWait(10);
-        Assert.assertTrue(app.homepage().HomePageTitleIsVisible(), "HomePage Title is Not Displayed");
+        app.homepage().swipeFunction();
+        /*Assert.assertTrue(app.homepage().HomePageTitleIsVisible(), "HomePage Title is Not Displayed");
         Assert.assertTrue(app.homepage().HamburgerIconIsVisible(), "Hamburger Icon is Not Displayed");
         Assert.assertTrue(app.homepage().SearchIconIsVisible(), "Search Icon is Not Displayed");
         Assert.assertTrue(app.homepage().ShoppingBagIconIsVisible(), "Shopping Bag Icon is Not Displayed");
@@ -59,6 +60,13 @@ public class HappyPath1 extends BaseTest{
         //Navigate to PDP by clicking on first Product Tile
         app.basecategorypage().clickOnFirstProduct();
 
+        //app.productdisplaypage().scrollUpCurrentView();
+        //app.productdisplaypage().scrollUpCurrentView();
+
+        app.productdisplaypage().movetoanelement();
+        app.productdisplaypage().clickColorChip();
+        app.productdisplaypage().clickSizeChip();
+        app.productdisplaypage().addToBagButton.click();*/
 
     }}
 

@@ -1,4 +1,5 @@
 llbean\pages\HomePage.class
+llbean\pages\ProductDisplayPage.class
 llbean\tests\HappyPath1.class
 llbean\pages\BasePage.class
 llbean\utils\AppiumDriverBuilder.class

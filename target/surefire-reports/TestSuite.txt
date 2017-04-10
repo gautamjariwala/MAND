@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.139 sec <<< FAILURE! - in TestSuite
-guestUserCheckout(llbean.tests.HappyPath1)  Time elapsed: 32.107 sec  <<< FAILURE!
-java.lang.AssertionError: HomePage Title is Not Displayed expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at llbean.tests.HappyPath1.guestUserCheckout(HappyPath1.java:25)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.163 sec - in TestSuite
