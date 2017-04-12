@@ -1,9 +1,14 @@
-llbean\pages\HomePage.class
 llbean\pages\ProductDisplayPage.class
 llbean\tests\HappyPath1.class
-llbean\pages\BasePage.class
+llbean\utils\SaveOrderDetails.class
+llbean\pages\ShoppingBag.class
 llbean\utils\AppiumDriverBuilder.class
-llbean\utils\UniversalPage.class
 llbean\pages\BaseCategoryPage.class
 llbean\pages\DepartmentPage.class
+llbean\pages\ShippingInfo.class
 llbean\tests\BaseTest.class
+llbean\pages\HomePage.class
+llbean\pages\BasePage.class
+llbean\utils\UniversalPage.class
+llbean\pages\AddPaymentMethod.class
+llbean\pages\BillingInfo.class

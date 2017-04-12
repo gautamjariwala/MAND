@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="1597" started-at="2017-04-07T18:54:04Z" finished-at="2017-04-07T18:54:05Z">
+  <suite name="Regression" duration-ms="176468" started-at="2017-04-12T23:07:11Z" finished-at="2017-04-12T23:10:07Z">
     <groups>
     </groups>
-    <test name="GuestUser" duration-ms="1597" started-at="2017-04-07T18:54:04Z" finished-at="2017-04-07T18:54:05Z">
+    <test name="GuestUser" duration-ms="176468" started-at="2017-04-12T23:07:11Z" finished-at="2017-04-12T23:10:07Z">
       <class name="llbean.tests.HappyPath1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:llbean.tests.HappyPath1@6f667ad1]" name="setup" is-config="true" duration-ms="13651" started-at="2017-04-07T14:53:50Z" finished-at="2017-04-07T14:54:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:llbean.tests.HappyPath1@2fc07784]" name="setup" is-config="true" duration-ms="23867" started-at="2017-04-12T19:06:47Z" finished-at="2017-04-12T19:07:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="guestUserCheckout()[pri:0, instance:llbean.tests.HappyPath1@6f667ad1]" name="guestUserCheckout" duration-ms="1581" started-at="2017-04-07T14:54:04Z" finished-at="2017-04-07T14:54:05Z">
+        <test-method status="PASS" signature="guestUserCheckout()[pri:0, instance:llbean.tests.HappyPath1@2fc07784]" name="guestUserCheckout" duration-ms="176405" started-at="2017-04-12T19:07:11Z" finished-at="2017-04-12T19:10:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guestUserCheckout -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:llbean.tests.HappyPath1@6f667ad1]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-04-07T14:54:05Z" finished-at="2017-04-07T14:54:05Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:llbean.tests.HappyPath1@2fc07784]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-04-12T19:10:07Z" finished-at="2017-04-12T19:10:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=guestUserCheckout status=SUCCESS method=HappyPath1.guestUserCheckout()[pri:0, instance:llbean.tests.HappyPath1@6f667ad1] output={null}]]]>
+                <![CDATA[[TestResult name=guestUserCheckout status=SUCCESS method=HappyPath1.guestUserCheckout()[pri:0, instance:llbean.tests.HappyPath1@2fc07784] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:llbean.tests.HappyPath1@6f667ad1]" name="teardown" is-config="true" duration-ms="1144" started-at="2017-04-07T14:54:06Z" finished-at="2017-04-07T14:54:07Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:llbean.tests.HappyPath1@2fc07784]" name="teardown" is-config="true" duration-ms="2348" started-at="2017-04-12T19:10:07Z" finished-at="2017-04-12T19:10:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

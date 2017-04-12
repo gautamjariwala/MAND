@@ -1,7 +1,6 @@
 package llbean.tests;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder;
 import llbean.utils.AppiumDriverBuilder;
 import llbean.utils.UniversalPage;
 import org.apache.commons.io.FileUtils;
@@ -16,6 +15,7 @@ import java.text.SimpleDateFormat;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
+import java.util.Properties;
 
 /**
  * Created by gjariwala on 4/4/2017.
@@ -24,12 +24,13 @@ public class BaseTest {
 
     private AppiumDriver driver;
     protected UniversalPage app;
+    public Properties properties;
 
     @BeforeSuite
     public void setup() throws  Exception{
-        driver = new AppiumDriverBuilder().build();
+        this.driver = new AppiumDriverBuilder().build();
 
-       app = new UniversalPage(driver);
+        app = new UniversalPage(driver);
 
 }
     @AfterMethod
@@ -38,7 +39,8 @@ public class BaseTest {
             System.out.println(testResult.getStatus());
             File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
             String out = new SimpleDateFormat("yyyy-MM-dd hh-mm-ss").format(new Date());
-            FileUtils.copyFile(scrFile, new File("H:\\screenshots\\"+out+".jpg"));
+            FileUtils.copyFile(scrFile, new File("C:\\Users\\gautam\\IdeaProjects\\mand\\"+out+".jpg"));
+
         }}
 
         @AfterSuite

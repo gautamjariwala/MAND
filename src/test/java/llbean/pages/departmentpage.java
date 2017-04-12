@@ -1,6 +1,7 @@
 package llbean.pages;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.aspectj.lang.annotation.AdviceName;
@@ -14,8 +15,8 @@ import java.util.List;
  */
 public class DepartmentPage extends BasePage{
 
-        public DepartmentPage(AppiumDriver driver){
-             super(driver);
+    public DepartmentPage(AppiumDriver driver){
+        super(driver);
 
     }
 
@@ -34,10 +35,10 @@ public class DepartmentPage extends BasePage{
 
 
     public void clickOnOuterwearCategory(){
-            scrollUpCurrentView();
-            explicitWait(5);
-            waitTillElementVisible(outerWearDepartment);
-            clickElement(outerWearDepartment);
+        scrollUpCurrentView();
+        explicitWait(5);
+        waitTillElementVisible(outerWearDepartment);
+        clickElement(outerWearDepartment);
     }
 
 

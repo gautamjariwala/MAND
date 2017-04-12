@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1492038431071" stop="1492038607601" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Regression : GuestUser</name>
+    <title>Regression : GuestUser</title>
+    <test-cases>
+        <test-case start="1492038431211" stop="1492038607507" status="passed">
+            <name>guestUserCheckout</name>
+            <steps>
+                <step start="1492038447019" stop="1492038447507" status="passed">
+                    <name>HomePageTitleIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038447507" stop="1492038447758" status="passed">
+                    <name>HamburgerIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038447758" stop="1492038448040" status="passed">
+                    <name>SearchIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038448040" stop="1492038448461" status="passed">
+                    <name>ShoppingBagIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038448461" stop="1492038448741" status="passed">
+                    <name>ShopTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038448741" stop="1492038448960" status="passed">
+                    <name>MensTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038448960" stop="1492038449180" status="passed">
+                    <name>WomensTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038449180" stop="1492038449368" status="passed">
+                    <name>KidsTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038449368" stop="1492038449618" status="passed">
+                    <name>FootwearTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038452035" stop="1492038453073" status="passed">
+                    <name>HamburgerIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038453073" stop="1492038453198" status="passed">
+                    <name>SearchIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038453213" stop="1492038453338" status="passed">
+                    <name>ShoppingBagIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038458165" stop="1492038458973" status="passed">
+                    <name>BackArrowIconIsPresnet</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038458973" stop="1492038459098" status="passed">
+                    <name>SearchIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038459114" stop="1492038459395" status="passed">
+                    <name>ShoppingBagIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038459395" stop="1492038463486" status="passed">
+                    <name>FirstProductTileIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038463486" stop="1492038464378" status="passed">
+                    <name>SecondProductTileIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038465706" stop="1492038467304" status="passed">
+                    <name>BackArrowIconIsPresnet</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038467304" stop="1492038467492" status="passed">
+                    <name>SearchIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038467492" stop="1492038467617" status="passed">
+                    <name>ShoppingBagIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038470538" stop="1492038473205" status="passed">
+                    <name>ProductTabIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038473377" stop="1492038473699" status="passed">
+                    <name>AboutTabIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038473699" stop="1492038474042" status="passed">
+                    <name>ReviewsTabIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038474042" stop="1492038474527" status="passed">
+                    <name>SimilarProductsTabIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038474773" stop="1492038475101" status="passed">
+                    <name>ProductNameIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038475101" stop="1492038475304" status="passed">
+                    <name>ProductIdIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038475304" stop="1492038475523" status="passed">
+                    <name>ReviewCountIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038475523" stop="1492038475726" status="passed">
+                    <name>SellingDescriptionIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038482900" stop="1492038484230" status="passed">
+                    <name>ProductPriceIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038484230" stop="1492038484355" status="passed">
+                    <name>AddToBagButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038484689" stop="1492038486753" status="passed">
+                    <name>CheckoutButtonIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038486753" stop="1492038487353" status="passed">
+                    <name>AddedSuccessfullyTextIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038487910" stop="1492038489772" status="passed">
+                    <name>ShoppingBagTitleIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038489881" stop="1492038490006" status="passed">
+                    <name>CheckoutHeaderButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038490006" stop="1492038490225" status="passed">
+                    <name>ItemCounterIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038490225" stop="1492038490475" status="passed">
+                    <name>ItemNameIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038490490" stop="1492038490725" status="passed">
+                    <name>ItemNumberIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038490725" stop="1492038490980" status="passed">
+                    <name>ItemPriceIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038497417" stop="1492038497526" status="passed">
+                    <name>OrderSummaryTitleIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038497542" stop="1492038497667" status="passed">
+                    <name>ItemsInBagTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038497667" stop="1492038497933" status="passed">
+                    <name>EstShippingHandlingTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038497933" stop="1492038498229" status="passed">
+                    <name>EstSubtotalTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038498229" stop="1492038498479" status="passed">
+                    <name>EstTotalTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038498479" stop="1492038498776" status="passed">
+                    <name>EstBalanceTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038498776" stop="1492038499042" status="passed">
+                    <name>EstTaxTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038499042" stop="1492038499323" status="passed">
+                    <name>CheckoutInPageFoterButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038499936" stop="1492038500453" status="passed">
+                    <name>CheckoutAsGuestButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038500453" stop="1492038500559" status="passed">
+                    <name>CheckoutAsRuButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038534747" stop="1492038549113" status="passed">
+                    <name>SelectStateFromDropdown[MAINE]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492038568197" stop="1492038571781" status="passed">
+                    <name>addressVerificationhandling</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Regression"/>
+                <label name="testGroup" value="GuestUser"/>
+                <label name="testClass" value="llbean.tests.HappyPath1"/>
+                <label name="testMethod" value="guestUserCheckout"/>
+                <label name="host" value="Gautam-PC"/>
+                <label name="thread" value="4072@Gautam-PC.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

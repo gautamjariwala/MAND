@@ -5,8 +5,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.remote.RemoteWebElement;
-
-
+import ru.yandex.qatools.allure.annotations.Step;
 
 
 import java.util.HashMap;
@@ -30,17 +29,42 @@ public class ProductDisplayPage extends BasePage {
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Add to Bag\")")
     public MobileElement addToBagButton;
 
-    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Regular\")")
+    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Colors\")")
     public MobileElement colorsLabel;
 
-    @AndroidFindBy(id = "com.llbean:id/text_review_count")
-    public MobileElement reviewCount;
+    @AndroidFindBy(id = "com.llbean:id/image_hero")
+    public MobileElement heroImage;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Product' and @index='0']")
+    public MobileElement productTab;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='About' and @index='0']")
+    public MobileElement aboutTab;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Reviews' and @index='0']")
+    public MobileElement reviewsTab;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Similar Products' and @index='0']")
+    public MobileElement similarProductsTab;
 
     @AndroidFindBy(id = "com.llbean:id/text_product_name")
     public MobileElement productName;
 
-    @AndroidFindBy(id = "com.llbean:id/image_hero")
-    public MobileElement heroImage;
+    @AndroidFindBy(id = "com.llbean:id/text_item_id")
+    public MobileElement productId;
+
+    @AndroidFindBy(id = "com.llbean:id/text_review_count")
+    public MobileElement reviewCount;
+
+    @AndroidFindBy(id = "com.llbean:id/text_selling_desc")
+    public MobileElement sellingDescription;
+
+    @AndroidFindBy(id = "com.llbean:id/text_product_price")
+    public MobileElement productPrice;
+
+
+
+    //xpath = "//android.widget.TextView[@text='Shop' and @index='0']"
 
     public void clickColorChip() {
 
@@ -65,30 +89,79 @@ public class ProductDisplayPage extends BasePage {
         }
     }
 
+    public void scrollToProductName() throws Exception {
+        //explicitWait(500);
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //Thread.sleep(15000);
+        driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(resourceId(\"com.llbean:id/text_product_name\"));"));
+
+    }
+
+    @Step
+    public boolean ProductTabIsPresent(){return isVisible(productTab);}
+
+    @Step
+    public boolean AboutTabIsPresent(){return isVisible(aboutTab);}
+
+    @Step
+    public boolean ReviewsTabIsPresent(){return isVisible(reviewsTab);}
+
+    @Step
+    public boolean SimilarProductsTabIsPresent(){return isVisible(similarProductsTab);}
+
+    @Step
+    public boolean ProductNameIsPresent(){return isVisible(productName);}
+
+    @Step
+    public boolean ProductIdIsPresent(){return isVisible(productId);}
+
+    @Step
+    public boolean ReviewCountIsPresent(){return isVisible(reviewCount);}
+
+    @Step
+    public boolean SellingDescriptionIsPresent(){return isVisible(sellingDescription);}
+
+    @Step
+    public boolean ProductPriceIsPresent(){return isVisible(productPrice);}
+
+    @Step
+    public boolean AddToBagButtonIsPresent(){return isVisible(addToBagButton);}
+
+    @AndroidFindBy(id = "com.llbean:id/snackbar_action")
+    public MobileElement checkoutButton;
+
+    @AndroidFindBy(id = "com.llbean:id/snackbar_text")
+    public MobileElement addedSuccessfullyText;
+
+    /*@AndroidFindBy(id = "com.llbean:id/snackbar_text")
+    public MobileElement addedSuccessfullyText;*/
+
+
+
+    @Step
+    public boolean CheckoutButtonIsVisible(){
+        waitTillElementVisible(checkoutButton);
+
+        return isVisible(checkoutButton);}
+
+    @Step
+    public boolean AddedSuccessfullyTextIsVisible(){
+
+        waitTillElementVisible(addedSuccessfullyText);
+        return isVisible(addedSuccessfullyText);}
+
+    public void scrollToColors() throws Exception {
+        //explicitWait(500);
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //Thread.sleep(15000);
+        driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Colors\"));"));
+
+    }
+
     public void movetoanelement(){
-        /*waitTillElementVisible(reviewCount);
-        explicitWait(500);
-        TouchAction action = new TouchAction(driver);
-        //action.press(reviewCount).perform().moveTo(colorsLabel).release();
-        action.press(reviewCount)
-                .waitAction(500)
-                .moveTo(colorsLabel)
-                .release()
-                .perform();
-*/
-        //heroImage.swipe(SwipeElementDirection.UP, 8000);
+
         driver.swipe(709, 1396, 709,0, 3000 );
-       // TouchAction t = new TouchAction(driver);
 
-        //driver.swipe(int i; int j; int k; int l; int time);
-
-        //t.press(heroImage).perform().moveTo(colorsLabel).perform().release();
-
-        /*JavascriptExecutor js = (JavascriptExecutor) driver;
-        HashMap<String, String> scrollObject = new HashMap<String, String>();
-        scrollObject.put("direction", "down");
-        scrollObject.put("element", ((RemoteWebElement) reviewCount).getId());
-        js.executeScript("mobile: scroll", scrollObject);*/
 
 
     }

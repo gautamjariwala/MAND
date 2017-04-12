@@ -89,4 +89,16 @@ public class BasePage {
         return status;
     }
 
+    public void inputString(MobileElement mobileElement, String stringToBeEntered){
+        mobileElement = waitTillElementVisible(mobileElement);
+        mobileElement.sendKeys(stringToBeEntered);
+
+    }
+
+    public void hideKeyboard(){
+        driver.hideKeyboard();
+    }
+
+
+
 }
