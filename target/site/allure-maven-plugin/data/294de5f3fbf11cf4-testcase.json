@@ -1,0 +1,1124 @@
+{
+  "uid" : "294de5f3fbf11cf4",
+  "name" : "guestUserCheckout",
+  "title" : "Guest user checkout",
+  "time" : {
+    "start" : 1492788009741,
+    "stop" : 1492788193929,
+    "duration" : 184188
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 71
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "31d19e0e018bc29f",
+    "name" : "Regression : GuestUser",
+    "title" : "Regression : GuestUser"
+  },
+  "steps" : [ {
+    "name" : "HomePageTitleIsVisible",
+    "title" : "Home page title is visible",
+    "time" : {
+      "start" : 1492788025069,
+      "stop" : 1492788025449,
+      "duration" : 380
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "HamburgerIconIsVisible",
+    "title" : "Hamburger icon is visible",
+    "time" : {
+      "start" : 1492788025449,
+      "stop" : 1492788025669,
+      "duration" : 220
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "SearchIconIsVisible",
+    "title" : "Search icon is visible",
+    "time" : {
+      "start" : 1492788025669,
+      "stop" : 1492788025849,
+      "duration" : 180
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShoppingBagIconIsVisible",
+    "title" : "Shopping bag icon is visible",
+    "time" : {
+      "start" : 1492788025849,
+      "stop" : 1492788026029,
+      "duration" : 180
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShopTabIsVisible",
+    "title" : "Shop tab is visible",
+    "time" : {
+      "start" : 1492788026039,
+      "stop" : 1492788026309,
+      "duration" : 270
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "MensTabIsVisible",
+    "title" : "Mens tab is visible",
+    "time" : {
+      "start" : 1492788026309,
+      "stop" : 1492788026449,
+      "duration" : 140
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "WomensTabIsVisible",
+    "title" : "Womens tab is visible",
+    "time" : {
+      "start" : 1492788026449,
+      "stop" : 1492788026559,
+      "duration" : 110
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "KidsTabIsVisible",
+    "title" : "Kids tab is visible",
+    "time" : {
+      "start" : 1492788026569,
+      "stop" : 1492788026729,
+      "duration" : 160
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "FootwearTabIsVisible",
+    "title" : "Footwear tab is visible",
+    "time" : {
+      "start" : 1492788026729,
+      "stop" : 1492788026909,
+      "duration" : 180
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "HamburgerIconIsVisible",
+    "title" : "Hamburger icon is visible",
+    "time" : {
+      "start" : 1492788029251,
+      "stop" : 1492788032360,
+      "duration" : 3109
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "SearchIconIsVisible",
+    "title" : "Search icon is visible",
+    "time" : {
+      "start" : 1492788032360,
+      "stop" : 1492788033123,
+      "duration" : 763
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShoppingBagIconIsVisible",
+    "title" : "Shopping bag icon is visible",
+    "time" : {
+      "start" : 1492788033123,
+      "stop" : 1492788033783,
+      "duration" : 660
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BackArrowIconIsPresnet",
+    "title" : "Back arrow icon is presnet",
+    "time" : {
+      "start" : 1492788040031,
+      "stop" : 1492788042029,
+      "duration" : 1998
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "SearchIconIsVisible",
+    "title" : "Search icon is visible",
+    "time" : {
+      "start" : 1492788042029,
+      "stop" : 1492788042129,
+      "duration" : 100
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShoppingBagIconIsVisible",
+    "title" : "Shopping bag icon is visible",
+    "time" : {
+      "start" : 1492788042129,
+      "stop" : 1492788042239,
+      "duration" : 110
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "FirstProductTileIsPresent",
+    "title" : "First product tile is present",
+    "time" : {
+      "start" : 1492788042239,
+      "stop" : 1492788042409,
+      "duration" : 170
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "SecondProductTileIsPresent",
+    "title" : "Second product tile is present",
+    "time" : {
+      "start" : 1492788042409,
+      "stop" : 1492788042749,
+      "duration" : 340
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BackArrowIconIsPresnet",
+    "title" : "Back arrow icon is presnet",
+    "time" : {
+      "start" : 1492788043419,
+      "stop" : 1492788044730,
+      "duration" : 1311
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "SearchIconIsVisible",
+    "title" : "Search icon is visible",
+    "time" : {
+      "start" : 1492788044730,
+      "stop" : 1492788044830,
+      "duration" : 100
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShoppingBagIconIsVisible",
+    "title" : "Shopping bag icon is visible",
+    "time" : {
+      "start" : 1492788044830,
+      "stop" : 1492788044940,
+      "duration" : 110
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ProductTabIsPresent",
+    "title" : "Product tab is present",
+    "time" : {
+      "start" : 1492788045900,
+      "stop" : 1492788048852,
+      "duration" : 2952
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "AboutTabIsPresent",
+    "title" : "About tab is present",
+    "time" : {
+      "start" : 1492788049072,
+      "stop" : 1492788049372,
+      "duration" : 300
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ReviewsTabIsPresent",
+    "title" : "Reviews tab is present",
+    "time" : {
+      "start" : 1492788049372,
+      "stop" : 1492788049632,
+      "duration" : 260
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "SimilarProductsTabIsPresent",
+    "title" : "Similar products tab is present",
+    "time" : {
+      "start" : 1492788049632,
+      "stop" : 1492788050062,
+      "duration" : 430
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ProductNameIsPresent",
+    "title" : "Product name is present",
+    "time" : {
+      "start" : 1492788050272,
+      "stop" : 1492788050429,
+      "duration" : 157
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ProductIdIsPresent",
+    "title" : "Product id is present",
+    "time" : {
+      "start" : 1492788050429,
+      "stop" : 1492788050609,
+      "duration" : 180
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ReviewCountIsPresent",
+    "title" : "Review count is present",
+    "time" : {
+      "start" : 1492788050609,
+      "stop" : 1492788050779,
+      "duration" : 170
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "SellingDescriptionIsPresent",
+    "title" : "Selling description is present",
+    "time" : {
+      "start" : 1492788050779,
+      "stop" : 1492788050949,
+      "duration" : 170
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ProductPriceIsPresent",
+    "title" : "Product price is present",
+    "time" : {
+      "start" : 1492788064030,
+      "stop" : 1492788065357,
+      "duration" : 1327
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "AddToBagButtonIsPresent",
+    "title" : "Add to bag button is present",
+    "time" : {
+      "start" : 1492788065357,
+      "stop" : 1492788065461,
+      "duration" : 104
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "CheckoutButtonIsVisible",
+    "title" : "Checkout button is visible",
+    "time" : {
+      "start" : 1492788065747,
+      "stop" : 1492788067895,
+      "duration" : 2148
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "AddedSuccessfullyTextIsVisible",
+    "title" : "Added successfully text is visible",
+    "time" : {
+      "start" : 1492788067895,
+      "stop" : 1492788068135,
+      "duration" : 240
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShoppingBagTitleIsPresent",
+    "title" : "Shopping bag title is present",
+    "time" : {
+      "start" : 1492788068531,
+      "stop" : 1492788070521,
+      "duration" : 1990
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "CheckoutHeaderButtonIsPresent",
+    "title" : "Checkout header button is present",
+    "time" : {
+      "start" : 1492788070621,
+      "stop" : 1492788070721,
+      "duration" : 100
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ItemCounterIsPresent",
+    "title" : "Item counter is present",
+    "time" : {
+      "start" : 1492788070721,
+      "stop" : 1492788070821,
+      "duration" : 100
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ItemNameIsPresent",
+    "title" : "Item name is present",
+    "time" : {
+      "start" : 1492788070821,
+      "stop" : 1492788070921,
+      "duration" : 100
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ItemNumberIsPresent",
+    "title" : "Item number is present",
+    "time" : {
+      "start" : 1492788070921,
+      "stop" : 1492788071031,
+      "duration" : 110
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ItemPriceIsPresent",
+    "title" : "Item price is present",
+    "time" : {
+      "start" : 1492788071031,
+      "stop" : 1492788071152,
+      "duration" : 121
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "OrderSummaryTitleIsPresent",
+    "title" : "Order summary title is present",
+    "time" : {
+      "start" : 1492788077452,
+      "stop" : 1492788077582,
+      "duration" : 130
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ItemsInBagTextIsPresent",
+    "title" : "Items in bag text is present",
+    "time" : {
+      "start" : 1492788077582,
+      "stop" : 1492788077702,
+      "duration" : 120
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "EstShippingHandlingTextIsPresent",
+    "title" : "Est shipping handling text is present",
+    "time" : {
+      "start" : 1492788077702,
+      "stop" : 1492788077812,
+      "duration" : 110
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "EstSubtotalTextIsPresent",
+    "title" : "Est subtotal text is present",
+    "time" : {
+      "start" : 1492788077812,
+      "stop" : 1492788077912,
+      "duration" : 100
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "EstTotalTextIsPresent",
+    "title" : "Est total text is present",
+    "time" : {
+      "start" : 1492788077912,
+      "stop" : 1492788077992,
+      "duration" : 80
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "EstBalanceTextIsPresent",
+    "title" : "Est balance text is present",
+    "time" : {
+      "start" : 1492788077992,
+      "stop" : 1492788078072,
+      "duration" : 80
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "EstTaxTextIsPresent",
+    "title" : "Est tax text is present",
+    "time" : {
+      "start" : 1492788078082,
+      "stop" : 1492788078192,
+      "duration" : 110
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "CheckoutInPageFoterButtonIsPresent",
+    "title" : "Checkout in page foter button is present",
+    "time" : {
+      "start" : 1492788078192,
+      "stop" : 1492788078302,
+      "duration" : 110
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "CheckoutAsGuestButtonIsPresent",
+    "title" : "Checkout as guest button is present",
+    "time" : {
+      "start" : 1492788078742,
+      "stop" : 1492788079282,
+      "duration" : 540
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "CheckoutAsRuButtonIsPresent",
+    "title" : "Checkout as ru button is present",
+    "time" : {
+      "start" : 1492788079282,
+      "stop" : 1492788079352,
+      "duration" : 70
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "SelectStateFromDropdown[MAINE]",
+    "title" : "Select state from dropdown [MAINE]",
+    "time" : {
+      "start" : 1492788111286,
+      "stop" : 1492788124741,
+      "duration" : 13455
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "addressVerificationhandling",
+    "title" : "Address verificationhandling",
+    "time" : {
+      "start" : 1492788143258,
+      "stop" : 1492788147162,
+      "duration" : 3904
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, Gautam]",
+    "title" : "Billing Address, Expected Gautam AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788179624,
+      "stop" : 1492788179624,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, Jariwala]",
+    "title" : "Billing Address, Expected Jariwala AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788179730,
+      "stop" : 1492788179730,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, xyz]",
+    "title" : "Billing Address, Expected xyz AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788179853,
+      "stop" : 1492788179853,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, abc]",
+    "title" : "Billing Address, Expected abc AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788179946,
+      "stop" : 1492788179946,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, Freeport]",
+    "title" : "Billing Address, Expected Freeport AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788180095,
+      "stop" : 1492788180095,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, 04092]",
+    "title" : "Billing Address, Expected 04092 AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788180206,
+      "stop" : 1492788180206,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, United States]",
+    "title" : "Billing Address, Expected United States AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788180296,
+      "stop" : 1492788180296,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, ME]",
+    "title" : "Billing Address, Expected ME AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788180466,
+      "stop" : 1492788180466,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, 12/25]",
+    "title" : "Billing Address, Expected 12/25 AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788180586,
+      "stop" : 1492788180586,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "BillingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, 1111]",
+    "title" : "Billing Address, Expected 1111 AND Actual Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788180701,
+      "stop" : 1492788180701,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShippingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, Gautam]",
+    "title" : "Shipping Address, EXPECTED Gautam AND ACTUAL Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788184247,
+      "stop" : 1492788184247,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShippingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, Jariwala]",
+    "title" : "Shipping Address, EXPECTED Jariwala AND ACTUAL Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788184351,
+      "stop" : 1492788184351,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShippingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, xyz]",
+    "title" : "Shipping Address, EXPECTED xyz AND ACTUAL Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788184449,
+      "stop" : 1492788184449,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShippingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, abc]",
+    "title" : "Shipping Address, EXPECTED abc AND ACTUAL Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788184535,
+      "stop" : 1492788184535,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShippingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, Freeport]",
+    "title" : "Shipping Address, EXPECTED Freeport AND ACTUAL Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788184596,
+      "stop" : 1492788184596,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShippingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, 04092]",
+    "title" : "Shipping Address, EXPECTED 04092 AND ACTUAL Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788184658,
+      "stop" : 1492788184658,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShippingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, United States]",
+    "title" : "Shipping Address, EXPECTED United States AND ACTUAL Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788184718,
+      "stop" : 1492788184718,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ShippingAddressAssertFunction[Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States, ME]",
+    "title" : "Shipping Address, EXPECTED ME AND ACTUAL Gautam Jariwala\nxyz\nabc\nFreeport, ME 04092\nUnited States",
+    "time" : {
+      "start" : 1492788184779,
+      "stop" : 1492788184779,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ItemDetailsAssertFunction[Located by Locator map: \n- native content: \"By.id: com.llbean:id/checkout_item_name\" \n- html c...]",
+    "title" : "Item Name is Displayed",
+    "time" : {
+      "start" : 1492788184957,
+      "stop" : 1492788185022,
+      "duration" : 65
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ItemDetailsAssertFunction[Located by Locator map: \n- native content: \"By.id: com.llbean:id/checkout_item_price\" \n- html ...]",
+    "title" : "Item Price is Displayed",
+    "time" : {
+      "start" : 1492788188215,
+      "stop" : 1492788188307,
+      "duration" : 92
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "ItemDetailsAssertFunction[Located by Locator map: \n- native content: \"By.id: com.llbean:id/checkout_item_availability\" \n...]",
+    "title" : "Item Availabilty is Displayed",
+    "time" : {
+      "start" : 1492788188391,
+      "stop" : 1492788188465,
+      "duration" : 74
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Regression : GuestUser"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "MJ0375M6"
+  }, {
+    "name" : "testGroup",
+    "value" : "GuestUser"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "testClass",
+    "value" : "llbean.tests.HappyPath1"
+  }, {
+    "name" : "testMethod",
+    "value" : "guestUserCheckout"
+  }, {
+    "name" : "thread",
+    "value" : "15036@MJ0375M6.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Regression : GuestUser"
+  } ],
+  "parameters" : [ ]
+}

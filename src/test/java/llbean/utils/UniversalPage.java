@@ -19,4 +19,5 @@ public class UniversalPage {
     public ShippingInfo shippingInfo(){return new ShippingInfo(driver);}
     public BillingInfo billinginfo(){return new BillingInfo(driver);}
     public AddPaymentMethod addPaymentMethod(){return new AddPaymentMethod(driver);}
+    public ReviewOrderPage reviewOrderPage(){return new ReviewOrderPage(driver);}
 }

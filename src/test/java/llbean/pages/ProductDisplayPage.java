@@ -94,6 +94,7 @@ public class ProductDisplayPage extends BasePage {
         //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //Thread.sleep(15000);
         driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(resourceId(\"com.llbean:id/text_product_name\"));"));
+        //driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Colors\"));"));
 
     }
 
@@ -154,7 +155,21 @@ public class ProductDisplayPage extends BasePage {
         //explicitWait(500);
         //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //Thread.sleep(15000);
+        //driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Colors\"));"));
         driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Colors\"));"));
+
+
+
+    }
+
+    public void scrollToSize() throws Exception {
+        //explicitWait(500);
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //Thread.sleep(15000);
+        //driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Colors\"));"));
+        driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Size\"));"));
+
+
 
     }
 

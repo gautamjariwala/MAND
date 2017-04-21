@@ -4,6 +4,8 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import llbean.utils.AppiumDriverBuilder;
+import org.testng.Assert;
+import ru.yandex.qatools.allure.annotations.Step;
 
 /**
  * Created by gautam on 4/12/2017.

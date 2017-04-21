@@ -77,6 +77,7 @@ public class HappyPath1 extends BaseTest{
 
         //app.productdisplaypage().movetoanelement();
         app.productdisplaypage().clickColorChip();
+        app.productdisplaypage().scrollToSize();
         app.productdisplaypage().clickSizeChip();
         app.productdisplaypage().ProductPriceIsPresent();
         app.productdisplaypage().AddToBagButtonIsPresent();
@@ -111,31 +112,96 @@ public class HappyPath1 extends BaseTest{
         Assert.assertTrue(app.shoppingBag().CheckoutAsRuButtonIsPresent(), "Checkout As RU Button is not present");
         app.shoppingBag().checkoutAsGuestButton.click();
         Thread.sleep(5000);
-        app.shippingInfo().firstNameField.sendKeys("Gautam");
+        app.shippingInfo().firstNameField.sendKeys(properties.getProperty("user.firstname"));
+        String FirstName = app.shippingInfo().firstNameField.getText();
         //app.shippingInfo().hideKeyboard();
-        app.shippingInfo().lastNameField.sendKeys("Jariwala");
+        app.shippingInfo().lastNameField.sendKeys(properties.getProperty("user.lastname"));
+        String LastName = app.shippingInfo().lastNameField.getText();
         app.shippingInfo().scrollToShippingInfoFooter();
-        app.shippingInfo().addressLine1Field.sendKeys("xyz");
-        app.shippingInfo().addressLine2Field.sendKeys("abc");
-        app.shippingInfo().SelectStateFromDropdown("MAINE");
-        app.shippingInfo().cityField.sendKeys("Westbrook");
-        app.shippingInfo().zipCodeField.sendKeys("04092");
-        app.shippingInfo().phoneField.sendKeys("1234567890");
+        app.shippingInfo().addressLine1Field.sendKeys(properties.getProperty("user.addressline1"));
+        String AddressLine1 = app.shippingInfo().addressLine1Field.getText();
+        app.shippingInfo().addressLine2Field.sendKeys(properties.getProperty("user.addressline2"));
+        String AddressLine2 = app.shippingInfo().addressLine2Field.getText();
+        app.shippingInfo().SelectStateFromDropdown(properties.getProperty("user.state"));
+        String State = app.shippingInfo().stateField.getText();
+        app.shippingInfo().cityField.sendKeys(properties.getProperty("user.city"));
+        String City = app.shippingInfo().cityField.getText();
+        app.shippingInfo().zipCodeField.sendKeys(properties.getProperty("user.zipcode"));
+        String ZipCode = app.shippingInfo().zipCodeField.getText();
+        app.shippingInfo().phoneField.sendKeys(properties.getProperty("user.phonenumber"));
         app.shippingInfo().shippingInfoConinueButton.click();
         app.shippingInfo().addressVerificationhandling();
 
         //Navigate to Billing Info Screen by clicking continue in the footer
-        app.billinginfo().emailAddressField.sendKeys("g@g.com");
-        app.billinginfo().confirmEmailAddressField.sendKeys("g@g.com");
+        app.billinginfo().emailAddressField.sendKeys(properties.getProperty("user.email"));
+        app.billinginfo().confirmEmailAddressField.sendKeys(properties.getProperty("user.email"));
         app.billinginfo().promotionsCheckbox.click();
         app.billinginfo().billingInfoContinueButton.click();
 
         //Navigate to Payment Method Screen by clicking Continue in the footer
-        app.addPaymentMethod().creditCardField.sendKeys("4111111111111111");
-        app.addPaymentMethod().expirationDateField.sendKeys("1225");
-        app.addPaymentMethod().addPaymentMrthodContinueButton.click();
+        app.addPaymentMethod().creditCardField.sendKeys(properties.getProperty("user.creditcard"));
+        app.addPaymentMethod().expirationDateField.sendKeys(properties.getProperty("user.expirationdate"));
 
         //Navigate to Review Screen by clicking Continue in the footer
+        app.addPaymentMethod().addPaymentMrthodContinueButton.click();
+        //Assert.assertEquals(app.reviewOrderPage().billingAddressReviewScreen.getText(), FirstName);
+
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.firstname"));
+        //Assert.assertTrue(app.reviewOrderPage().billingAddressReviewScreen.getText().contains(properties.getProperty("user.firstname")));
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.lastname"));
+        //Assert.assertTrue(app.reviewOrderPage().billingAddressReviewScreen.getText().contains(properties.getProperty("user.lastname")));
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.addressline1"));
+        //Assert.assertTrue(app.reviewOrderPage().billingAddressReviewScreen.getText().contains(properties.getProperty("user.addressline1")));
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.addressline2"));
+        //Assert.assertTrue(app.reviewOrderPage().billingAddressReviewScreen.getText().contains(properties.getProperty("user.addressline2")));
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.city"));
+        //Assert.assertTrue(app.reviewOrderPage().billingAddressReviewScreen.getText().contains(properties.getProperty("user.city")));
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.zipcode"));
+        //Assert.assertTrue(app.reviewOrderPage().billingAddressReviewScreen.getText().contains(properties.getProperty("user.zipcode")));
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.country"));
+        //Assert.assertTrue(app.reviewOrderPage().billingAddressReviewScreen.getText().contains(properties.getProperty("user.country")));
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.stateabbreviation"));
+        //Assert.assertTrue(app.reviewOrderPage().billingAddressReviewScreen.getText().contains(properties.getProperty("user.stateabbreviation")));
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.expirationdatewithslash"));
+        //Assert.assertTrue(app.reviewOrderPage().creditCardExpiratDateReviewScreen.getText().contains(properties.getProperty("user.expirationdatewithslash")));
+        app.reviewOrderPage().BillingAddressAssertFunction(app.reviewOrderPage().billingAddressReviewScreen.getText(), properties.getProperty("user.cclastfourdigits"));
+        //Assert.assertTrue(app.reviewOrderPage().creditCardNumberReviewScreen.getText().contains(properties.getProperty("user.cclastfourdigits")));
+
+
+        app.reviewOrderPage().scrollToShippingAddress();
+        app.reviewOrderPage().ShippingAddressAssertFunction(app.reviewOrderPage().shippingAddressReviewScreen.getText(), properties.getProperty("user.firstname"));
+        app.reviewOrderPage().ShippingAddressAssertFunction(app.reviewOrderPage().shippingAddressReviewScreen.getText(), properties.getProperty("user.lastname"));
+        app.reviewOrderPage().ShippingAddressAssertFunction(app.reviewOrderPage().shippingAddressReviewScreen.getText(), properties.getProperty("user.addressline1"));
+        app.reviewOrderPage().ShippingAddressAssertFunction(app.reviewOrderPage().shippingAddressReviewScreen.getText(), properties.getProperty("user.addressline2"));
+        app.reviewOrderPage().ShippingAddressAssertFunction(app.reviewOrderPage().shippingAddressReviewScreen.getText(), properties.getProperty("user.city"));
+        app.reviewOrderPage().ShippingAddressAssertFunction(app.reviewOrderPage().shippingAddressReviewScreen.getText(), properties.getProperty("user.zipcode"));
+        app.reviewOrderPage().ShippingAddressAssertFunction(app.reviewOrderPage().shippingAddressReviewScreen.getText(), properties.getProperty("user.country"));
+        app.reviewOrderPage().ShippingAddressAssertFunction(app.reviewOrderPage().shippingAddressReviewScreen.getText(), properties.getProperty("user.stateabbreviation"));
+        Assert.assertEquals(app.reviewOrderPage().freeShippingText.getText(), "FREE Shipping");
+
+        app.reviewOrderPage().scrollToItemName();
+        app.reviewOrderPage().ItemDetailsAssertFunction(app.reviewOrderPage().itemName, "Item Name is Displayed");
+        //Assert.assertTrue(app.reviewOrderPage().itemName.isDisplayed(), "Item Name is Not Displayed");
+        app.reviewOrderPage().scrollToItemPrice();
+        app.reviewOrderPage().ItemDetailsAssertFunction(app.reviewOrderPage().itemPrice, "Item Price is Displayed");
+        //Assert.assertTrue(app.reviewOrderPage().itemPrice.isDisplayed(), "Item Price is Not Displayed");
+        app.reviewOrderPage().scrollToItemAvailability();
+        app.reviewOrderPage().ItemDetailsAssertFunction(app.reviewOrderPage().itemAvailability, "Item Availabilty is Displayed");
+        //Assert.assertTrue(app.reviewOrderPage().itemAvailability.isDisplayed(), "Item Availability is Not Displayed");
+
+
+        app.reviewOrderPage().scrollToBottomOfThePage();
+        Assert.assertTrue(app.reviewOrderPage().orderSummaryTitle.isDisplayed(), "Order Summary Title is Not Displayed");
+        Assert.assertTrue(app.reviewOrderPage().itemInBagValue.isDisplayed(), "Item in Bag Value is Not Displayed");
+        String itembagvalue = app.reviewOrderPage().itemInBagValue.getText();
+        SaveOrderDetails.saveOrder("Item in Bag Value: " + itembagvalue);
+        Assert.assertEquals(app.reviewOrderPage().shippingHandlingFreeValue.getText(), "Free", "Shipping & Handling is not Displayed as FREE");
+        Assert.assertTrue(app.reviewOrderPage().subtotalValue.isDisplayed(), "Order Summary Title is Not Displayed");
+        Assert.assertTrue(app.reviewOrderPage().taxValue.isDisplayed(), "Tax Value is Not Displayed");
+        Assert.assertTrue(app.reviewOrderPage().orderTotalValue.isDisplayed(), "Order Total Value is Not Displayed");
+        Assert.assertTrue(app.reviewOrderPage().cardChargeValue.isDisplayed(), "Balance to be Applied to Credit Card Value is Not Displayed");
+        Assert.assertEquals(app.reviewOrderPage().bottomBarBalanceValue.getText(), app.reviewOrderPage().cardChargeValue.getText(), "Bottom Bar value doesn't match the amount being charged to credit card");
+
         app.addPaymentMethod().reviewpPageTopPlaceOrderButton.click();
         String orderNumber = app.addPaymentMethod().confirmationPopupNumber.getText();
         String orderAmount = app.addPaymentMethod().confirmationPopupAmount.getText();

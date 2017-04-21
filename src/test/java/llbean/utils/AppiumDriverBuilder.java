@@ -14,11 +14,12 @@ import java.util.Properties;
 public class AppiumDriverBuilder {
 
 
+
     public AppiumDriver build() throws Exception {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "Android");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus 6");
-        capabilities.setCapability(MobileCapabilityType.APP, "/Users/gautam/IdeaProjects/mand/src/L.L.Bean_1.1-development-312-g8acd13b.apk");
+        capabilities.setCapability(MobileCapabilityType.APP, "/Users/gjariwala/IdeaProjects/mand/src/L.L.Bean_1.1.1-34-gaed9ca0.apk");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
         capabilities.setCapability(AndroidMobileCapabilityType.UNICODE_KEYBOARD, true);
         capabilities.setCapability(AndroidMobileCapabilityType.RESET_KEYBOARD, true);

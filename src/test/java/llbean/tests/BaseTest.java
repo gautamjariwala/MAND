@@ -2,6 +2,7 @@ package llbean.tests;
 
 import io.appium.java_client.AppiumDriver;
 import llbean.utils.AppiumDriverBuilder;
+import llbean.utils.LoadProperties;
 import llbean.utils.UniversalPage;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -29,6 +30,8 @@ public class BaseTest {
     @BeforeSuite
     public void setup() throws  Exception{
         this.driver = new AppiumDriverBuilder().build();
+        properties = LoadProperties.loadProperties("userdetails.properties");
+        Thread.sleep(20000);
 
         app = new UniversalPage(driver);
 
@@ -39,7 +42,7 @@ public class BaseTest {
             System.out.println(testResult.getStatus());
             File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
             String out = new SimpleDateFormat("yyyy-MM-dd hh-mm-ss").format(new Date());
-            FileUtils.copyFile(scrFile, new File("C:\\Users\\gautam\\IdeaProjects\\mand\\"+out+".jpg"));
+            FileUtils.copyFile(scrFile, new File("C:\\Users\\gjariwala\\IdeaProjects\\mand\\"+out+".jpg"));
 
         }}
 

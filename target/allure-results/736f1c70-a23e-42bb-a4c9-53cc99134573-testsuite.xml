@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1492788009681" stop="1492788193990" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Regression : GuestUser</name>
+    <title>Regression : GuestUser</title>
+    <test-cases>
+        <test-case start="1492788009741" stop="1492788193929" status="passed">
+            <name>guestUserCheckout</name>
+            <steps>
+                <step start="1492788025069" stop="1492788025449" status="passed">
+                    <name>HomePageTitleIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788025449" stop="1492788025669" status="passed">
+                    <name>HamburgerIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788025669" stop="1492788025849" status="passed">
+                    <name>SearchIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788025849" stop="1492788026029" status="passed">
+                    <name>ShoppingBagIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788026039" stop="1492788026309" status="passed">
+                    <name>ShopTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788026309" stop="1492788026449" status="passed">
+                    <name>MensTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788026449" stop="1492788026559" status="passed">
+                    <name>WomensTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788026569" stop="1492788026729" status="passed">
+                    <name>KidsTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788026729" stop="1492788026909" status="passed">
+                    <name>FootwearTabIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788029251" stop="1492788032360" status="passed">
+                    <name>HamburgerIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788032360" stop="1492788033123" status="passed">
+                    <name>SearchIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788033123" stop="1492788033783" status="passed">
+                    <name>ShoppingBagIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788040031" stop="1492788042029" status="passed">
+                    <name>BackArrowIconIsPresnet</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788042029" stop="1492788042129" status="passed">
+                    <name>SearchIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788042129" stop="1492788042239" status="passed">
+                    <name>ShoppingBagIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788042239" stop="1492788042409" status="passed">
+                    <name>FirstProductTileIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788042409" stop="1492788042749" status="passed">
+                    <name>SecondProductTileIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788043419" stop="1492788044730" status="passed">
+                    <name>BackArrowIconIsPresnet</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788044730" stop="1492788044830" status="passed">
+                    <name>SearchIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788044830" stop="1492788044940" status="passed">
+                    <name>ShoppingBagIconIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788045900" stop="1492788048852" status="passed">
+                    <name>ProductTabIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788049072" stop="1492788049372" status="passed">
+                    <name>AboutTabIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788049372" stop="1492788049632" status="passed">
+                    <name>ReviewsTabIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788049632" stop="1492788050062" status="passed">
+                    <name>SimilarProductsTabIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788050272" stop="1492788050429" status="passed">
+                    <name>ProductNameIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788050429" stop="1492788050609" status="passed">
+                    <name>ProductIdIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788050609" stop="1492788050779" status="passed">
+                    <name>ReviewCountIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788050779" stop="1492788050949" status="passed">
+                    <name>SellingDescriptionIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788064030" stop="1492788065357" status="passed">
+                    <name>ProductPriceIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788065357" stop="1492788065461" status="passed">
+                    <name>AddToBagButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788065747" stop="1492788067895" status="passed">
+                    <name>CheckoutButtonIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788067895" stop="1492788068135" status="passed">
+                    <name>AddedSuccessfullyTextIsVisible</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788068531" stop="1492788070521" status="passed">
+                    <name>ShoppingBagTitleIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788070621" stop="1492788070721" status="passed">
+                    <name>CheckoutHeaderButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788070721" stop="1492788070821" status="passed">
+                    <name>ItemCounterIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788070821" stop="1492788070921" status="passed">
+                    <name>ItemNameIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788070921" stop="1492788071031" status="passed">
+                    <name>ItemNumberIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788071031" stop="1492788071152" status="passed">
+                    <name>ItemPriceIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788077452" stop="1492788077582" status="passed">
+                    <name>OrderSummaryTitleIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788077582" stop="1492788077702" status="passed">
+                    <name>ItemsInBagTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788077702" stop="1492788077812" status="passed">
+                    <name>EstShippingHandlingTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788077812" stop="1492788077912" status="passed">
+                    <name>EstSubtotalTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788077912" stop="1492788077992" status="passed">
+                    <name>EstTotalTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788077992" stop="1492788078072" status="passed">
+                    <name>EstBalanceTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788078082" stop="1492788078192" status="passed">
+                    <name>EstTaxTextIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788078192" stop="1492788078302" status="passed">
+                    <name>CheckoutInPageFoterButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788078742" stop="1492788079282" status="passed">
+                    <name>CheckoutAsGuestButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788079282" stop="1492788079352" status="passed">
+                    <name>CheckoutAsRuButtonIsPresent</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788111286" stop="1492788124741" status="passed">
+                    <name>SelectStateFromDropdown[MAINE]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788143258" stop="1492788147162" status="passed">
+                    <name>addressVerificationhandling</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788179624" stop="1492788179624" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, Gautam]</name>
+                    <title>Billing Address, Expected Gautam AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788179730" stop="1492788179730" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, Jariwala]</name>
+                    <title>Billing Address, Expected Jariwala AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788179853" stop="1492788179853" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, xyz]</name>
+                    <title>Billing Address, Expected xyz AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788179946" stop="1492788179946" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, abc]</name>
+                    <title>Billing Address, Expected abc AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788180095" stop="1492788180095" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, Freeport]</name>
+                    <title>Billing Address, Expected Freeport AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788180206" stop="1492788180206" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, 04092]</name>
+                    <title>Billing Address, Expected 04092 AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788180296" stop="1492788180296" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, United States]</name>
+                    <title>Billing Address, Expected United States AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788180466" stop="1492788180466" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, ME]</name>
+                    <title>Billing Address, Expected ME AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788180586" stop="1492788180586" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, 12/25]</name>
+                    <title>Billing Address, Expected 12/25 AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788180701" stop="1492788180701" status="passed">
+                    <name>BillingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, 1111]</name>
+                    <title>Billing Address, Expected 1111 AND Actual Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788184247" stop="1492788184247" status="passed">
+                    <name>ShippingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, Gautam]</name>
+                    <title>Shipping Address, EXPECTED Gautam AND ACTUAL Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788184351" stop="1492788184351" status="passed">
+                    <name>ShippingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, Jariwala]</name>
+                    <title>Shipping Address, EXPECTED Jariwala AND ACTUAL Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788184449" stop="1492788184449" status="passed">
+                    <name>ShippingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, xyz]</name>
+                    <title>Shipping Address, EXPECTED xyz AND ACTUAL Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788184535" stop="1492788184535" status="passed">
+                    <name>ShippingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, abc]</name>
+                    <title>Shipping Address, EXPECTED abc AND ACTUAL Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788184596" stop="1492788184596" status="passed">
+                    <name>ShippingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, Freeport]</name>
+                    <title>Shipping Address, EXPECTED Freeport AND ACTUAL Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788184658" stop="1492788184658" status="passed">
+                    <name>ShippingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, 04092]</name>
+                    <title>Shipping Address, EXPECTED 04092 AND ACTUAL Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788184718" stop="1492788184718" status="passed">
+                    <name>ShippingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, United States]</name>
+                    <title>Shipping Address, EXPECTED United States AND ACTUAL Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788184779" stop="1492788184779" status="passed">
+                    <name>ShippingAddressAssertFunction[Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States, ME]</name>
+                    <title>Shipping Address, EXPECTED ME AND ACTUAL Gautam Jariwala
+xyz
+abc
+Freeport, ME 04092
+United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788184957" stop="1492788185022" status="passed">
+                    <name>ItemDetailsAssertFunction[Located by Locator map: 
+- native content: "By.id: com.llbean:id/checkout_item_name" 
+- html c...]</name>
+                    <title>Item Name is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788188215" stop="1492788188307" status="passed">
+                    <name>ItemDetailsAssertFunction[Located by Locator map: 
+- native content: "By.id: com.llbean:id/checkout_item_price" 
+- html ...]</name>
+                    <title>Item Price is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1492788188391" stop="1492788188465" status="passed">
+                    <name>ItemDetailsAssertFunction[Located by Locator map: 
+- native content: "By.id: com.llbean:id/checkout_item_availability" 
+...]</name>
+                    <title>Item Availabilty is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Regression"/>
+                <label name="testGroup" value="GuestUser"/>
+                <label name="testClass" value="llbean.tests.HappyPath1"/>
+                <label name="testMethod" value="guestUserCheckout"/>
+                <label name="host" value="MJ0375M6"/>
+                <label name="thread" value="15036@MJ0375M6.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

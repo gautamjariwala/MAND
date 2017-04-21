@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 public class SaveOrderDetails {
 
     public static void saveOrder(String orderDetails){
-        try{PrintWriter pw = new PrintWriter(new FileWriter(new File("src/test/java/llbean/resources/orderdetails.txt"), true));
+        try{PrintWriter pw = new PrintWriter(new FileWriter(new File("src/test/resources/orderdetails.txt"), true));
         pw.append(orderDetails + "\n");
         pw.close();
 
